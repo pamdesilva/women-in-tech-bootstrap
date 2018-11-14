@@ -21,9 +21,8 @@ ul {
   min-height: 500px;
   padding-top: 2em;
   margin: 0;
-  border-bottom: 5px solid #AD343E;
+  border-bottom: 5px solid #E0E0CE;
   background: linear-gradient(0deg, rgba(15,15,15,0.53125) 0%, rgba(253,187,45,0.5) 100%),url(../images/background.jpg) no-repeat 50%;
-  background-repeat: no-repeat;
   background-size: cover;
   color: #E0E0CE;
 }
