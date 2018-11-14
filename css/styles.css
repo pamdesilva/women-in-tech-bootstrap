@@ -1,5 +1,6 @@
 body {
   color: #474747;
+  font-size: 1.2em;
 }
 
 a {
@@ -27,6 +28,13 @@ ul {
 
 .jumbotron h1 {
   padding-top: 0.5em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  color: #AD343E;
+}
+
+.jumbotron p {
+  font-size: 1.1em;
 }
 
 .home-section {
@@ -36,6 +44,7 @@ ul {
 
 .home-section img {
   width: 400px;
+  box-shadow: 10px 10px 0px 0px #E0E0CE;
 }
 
 .home-section img:hover {
@@ -47,7 +56,7 @@ ul {
 
 .home-section p {
   font-weight: 300;
-  font-size: 2em;
+  font-size: 1.5em;
   padding: 0.3em;
   background: #E0E0CE;
   color: #474747;
@@ -59,27 +68,38 @@ ul {
   color: #F2AF29;
 }
 
+.home-section .fake-btn {
+  width: 28%;
+  background: #000;
+  color: #E0E0CE;
+  margin-top: 2em;
+}
+
+.fake-btn:hover {
+  background: #AD343E;
+}
+
 #grace-hopper h2 {
   background: #F2AF29;
   padding: 0.3em;
   color: #000;
 }
 
-#ada-lovelace {
+#grace-hopper .fake-btn {
+  background: #F2AF29;
+}
+
+#grace-hopper .fake-btn:hover {
+  background: #AD343E;
+}
+
+#ada-lovelace,
+#katherine-johnson {
   background: #F2AF29;
 }
 
 #grace-hopper {
   background: #000000;
-}
-
-#katherine-johnson {
-  background: #F2AF29;
-}
-
-.home-section h2:hover,
-#grace-hopper h2:hover {
-  background: #AD343E;
 }
 
 footer {
@@ -104,11 +124,17 @@ nav {
   background-color: #000;
   height: 6em;
   border-bottom: 5px solid #E0E0CE;
+  font-family: 'Raleway', sans-serif;
 }
 
 .navbar-brand {
-  color: #AD343E;
   font-size: 2em;
+  font-weight: 600;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+  color: #AD343E;
 }
 
 .bio-hero {
@@ -120,15 +146,17 @@ nav {
 .bio-hero h1 {
   padding: 0.3em;
   color: #000;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
 }
 
 .bio-hero img {
   width: 350px;
-  border: 10px solid #000;
+  box-shadow: 10px 10px 0px 0px #E0E0CE;
 }
 
 .bio-hero ul {
-  padding-top: 3em;
+  padding-top: 1em;
 }
 
 .bio-hero strong {
@@ -145,6 +173,7 @@ nav {
 
 .bio-content h2 {
   margin-bottom: 0.5em;
+  font-family: 'Raleway', sans-serif;
 }
 
 blockquote {
