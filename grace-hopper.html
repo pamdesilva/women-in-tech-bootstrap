@@ -1,107 +1,143 @@
-﻿
 <!DOCTYPE html>
 <html lang="en-GB">
 
 <head>
-  <title>Grace Hopper</title>
+  <title>Grace Hoppe</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="css/normalize.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link href="css/styles.css" rel="stylesheet" />
 </head>
 
-<body>
-  <nav id="top">
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="ada-lovelace.html">Ada Lovelace</a></li>
-      <li><a href="katherine-johnson.html">Katherine Johnson</a></li>
-    </ul>
+<body class="bio-body">
+
+  <nav class="navbar navbar-expand-lg" id="top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Women in Tech</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="ada-lovelace.html">Ada Lovelace</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="katherine-johnson.html">Katherine Johnson</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </nav>
 
   <main>
-    <header>
-      <h1>Grace Hopper</h1>
-      <figure>
-        <img src="images/grace.jpg" alt="" class="hero-img" id="hero-img-grace" />
-      </figure>
-    </header>
-
-    <ul id="short-bio">
-      <li>
-        <p class="short-bio-title"><strong>Born</strong></p>
-        <p>Grace Murray Hopper, December 9, 1906, New York City, New York, U.S.</p>
-      </li>
-      <li>
-        <p class="short-bio-title"><strong>Nicknames</strong></p>
-        <p>"Amazing Grace", "Grandma COBOL"</p>
-      </li>
-      <li>
-        <p class="short-bio-title"><strong>Died</strong></p>
-        <p>January 1, 1992, Arlington, Virginia, U.S.</p>
-      </li>
-      <li>
-        <p class="short-bio-title"><strong>Served</strong></p>
-        <p>United States Navy</p>
-      </li>
-      <li>
-        <p class="short-bio-title"><strong>Years of service</strong></p>
-        <p>1943–1966, 1967–1971, 1972–1986</p>
-      </li>
-      <li>
-        <p class="short-bio-title"><strong>Rank</strong></p>
-        <p>Rear admiral (lower half)</p>
-      </li>
-    </ul>
+    <section class="bio-hero">
+      <div class="container text-center">
+        <h1 class="text-center mb-5 display-3">Grace Hopper</h1>
+        <div class="row">
+          <div class="col-sm">
+            <figure>
+              <img src="images/ada.jpg" alt="Image of Grace Hopper." class="img-fluid rounded-circle" />
+            </figure>
+          </div>
+          <div class="col-sm text-sm-left">
+            <ul>
+              <li>
+                <p><strong>Born</strong></p>
+                <p>Grace Murray Hopper, December 9, 1906, New York City, New York, U.S.</p>
+              </li>
+              <li>
+                <p><strong>Nicknames</strong></p>
+                <p>"Amazing Grace", "Grandma COBOL"</p>
+              </li>
+              <li>
+                <p><strong>Died</strong></p>
+                <p>January 1, 1992, Arlington, Virginia, U.S.</p>
+              </li>
+              <li>
+                <p><strong>Served</strong></p>
+                <p>United States Navy</p>
+              </li>
+              <li>
+                <p><strong>Years of service</strong></p>
+                <p>1943–1966, 1967–1971, 1972–1986</p>
+              </li>
+              <li>
+                <p><strong>Rank</strong></p>
+                <p>Rear admiral (lower half)</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <blockquote class="quote-row">
-      <p>“The most dangerous phrase in the language is, 'We've always done it this way'.”</p>
+    <blockquote>
+      <div class="container">
+        <h4 class="display-4">“The most dangerous phrase in the language is, 'We've always done it this way'.”</h4>
+      </div>
     </blockquote>
 
-    <section id="long-bio">
-      <h2>Grace's story</h2>
-      <h3>Growing up</h3>
-      <p>Grace Brewster Murray Hopper (née Murray) was an American computer scientist and United States Navy rear admiral. One of the first programmers of the Harvard Mark I computer, she was a pioneer of computer programming who invented one of the
-        first compiler related tools.</p>
-      <p>She popularised the idea of machine-independent programming languages, which led to the development of COBOL, an early high-level programming language still in use today.</p>
-      <h3>Career</h3>
-      <p>
-        Hopper attempted to enlist in the Navy during World War II but was rejected because she was 34 years old. She instead joined the Navy Reserves. Hopper began her computing career in 1944 when she worked on the Harvard Mark I team led by
-        Howard
-        H. Aiken.</p>
-        <p>In 1949, she joined the Eckert–Mauchly Computer Corporation and was part of the team that developed the UNIVAC I computer. At Eckert–Mauchly she began developing the compiler. She believed that a programming language based on
-        English
-        was possible.</p>
-        <p>Her compiler converted English terms into machine code understood by computers. By 1952, Hopper had finished her program linker (originally called a compiler), which was written for the A-0 System.
-      </p>
-      <p>
-        In 1954, Eckert–Mauchly chose Hopper to lead their department for automatic programming, and she led the release of some of the first compiled languages like FLOW-MATIC. In 1959, she participated in the CODASYL consortium, which consulted
-        Hopper to guide them in creating a machine-independent programming language.</p>
-        <p>This led to the COBOL language, which was inspired by her idea of a language being based on English words. In 1966, she retired from the Naval Reserve, but in 1967,
-        the Navy recalled her to active duty. She retired from the Navy in 1986 and found work as a consultant for the Digital Equipment Corporation, sharing her computing experiences.
-      </p>
-      <h3>Awards</h3>
-      <p>
-        Owing to her accomplishments and her naval rank, she was sometimes referred to as "Amazing Grace". The U.S. Navy Arleigh Burke-class guided-missile destroyer USS Hopper was named for her, as was the Cray XE6 "Hopper" supercomputer at NERSC.</p>
-        <p>During her lifetime, Hopper was awarded 40 honorary degrees from universities across the world. A college at Yale University was renamed in her honour. In 1991, she received the National Medal of Technology. On November 22, 2016, she was
-        posthumously awarded the Presidential Medal of Freedom by President Barack Obama.
-      </p>
-      <p>
-        On New Year's Day 1992, Hopper died in her sleep of natural causes at her home in Arlington, Virginia; she was 85 years of age. She was interred with full military honors in Arlington National Cemetery.
-      </p>
+    <section class="bio-content">
+      <div class="container text-center">
+        <div class="text-section">
+          <h2 class="display-4">Grace's story</h2>
+          <p>Grace Brewster Murray Hopper (née Murray) was an American computer scientist and United States Navy rear admiral. One of the first programmers of the Harvard Mark I computer, she was a pioneer of computer programming who invented one of the
+            first compiler related tools.
+          </p>
+          <p>She popularised the idea of machine-independent programming languages, which led to the development of COBOL, an early high-level programming language still in use today.</p>
+        </div>
+        <div class="row">
+          <div class="col-md text-section">
+            <h3>Career</h3>
+            <p>
+              Hopper attempted to enlist in the Navy during World War II but was rejected because she was 34 years old. She instead joined the Navy Reserves. Hopper began her computing career in 1944 when she worked on the Harvard Mark I team led by
+              Howard
+              H. Aiken.</p>
+              <p>In 1949, she joined the Eckert–Mauchly Computer Corporation and was part of the team that developed the UNIVAC I computer. At Eckert–Mauchly she began developing the compiler. She believed that a programming language based on
+              English
+              was possible.</p>
+              <p>Her compiler converted English terms into machine code understood by computers. By 1952, Hopper had finished her program linker (originally called a compiler), which was written for the A-0 System.
+            </p>
+            <p>
+              In 1954, Eckert–Mauchly chose Hopper to lead their department for automatic programming, and she led the release of some of the first compiled languages like FLOW-MATIC. In 1959, she participated in the CODASYL consortium, which consulted
+              Hopper to guide them in creating a machine-independent programming language.</p>
+              <p>This led to the COBOL language, which was inspired by her idea of a language being based on English words. In 1966, she retired from the Naval Reserve, but in 1967,
+              the Navy recalled her to active duty. She retired from the Navy in 1986 and found work as a consultant for the Digital Equipment Corporation, sharing her computing experiences.
+            </p>
+          </div>
+          <div class="col-md text-section">
+            <h3>Awards</h3>
+            <p>
+              Owing to her accomplishments and her naval rank, she was sometimes referred to as "Amazing Grace". The U.S. Navy Arleigh Burke-class guided-missile destroyer USS Hopper was named for her, as was the Cray XE6 "Hopper" supercomputer at NERSC.</p>
+              <p>During her lifetime, Hopper was awarded 40 honorary degrees from universities across the world. A college at Yale University was renamed in her honour. In 1991, she received the National Medal of Technology. On November 22, 2016, she was
+              posthumously awarded the Presidential Medal of Freedom by President Barack Obama.
+            </p>
+            <p>
+              On New Year's Day 1992, Hopper died in her sleep of natural causes at her home in Arlington, Virginia; she was 85 years of age. She was interred with full military honors in Arlington National Cemetery.
+            </p>
+          </div>
+        </div>
     </section>
 
-    <blockquote class="quote-row">
-      <p>“If it is a good idea, go ahead and do it. It is much easier to apologize than to get permission.”</p>
+    <blockquote>
+      <div class="container">
+        <h4 class="display-4">“If it is a good idea, go ahead and do it. It is much easier to apologize than to get permission.”</h4>
+      </div>
     </blockquote>
 
-    <footer>
-      <p><a href="https://en.wikipedia.org/wiki/Grace_Hopper">Source</a></p>
-      <p><a href="#top">Back to top</a></p>
-    </footer>
-
+    <section class="bottom-buttons">
+      <div class="container text-center">
+        <a href="https://en.wikipedia.org/wiki/Grace_Hoppere"><button type="button" class="btn btn-secondary">Source</button></a>
+        <a href="#top"><button type="button" class="btn btn-secondary">Back to top</button></a>
+      </div>
+    </section>
   </main>
+
+  <footer class="text-center">
+    <small>Built by <a href="https://github.com/pamdesilva">Pamela De Silva</a></small>
+  </footer>
 
 </body>
 

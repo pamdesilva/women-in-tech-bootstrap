@@ -36,28 +36,27 @@ ul {
 
 .home-section img {
   width: 400px;
+}
+
+.home-section img:hover {
+  width: 400px;
   -webkit-box-shadow: 10px 10px 0px 0px rgba(173,52,62,1);
   -moz-box-shadow: 10px 10px 0px 0px rgba(173,52,62,1);
   box-shadow: 10px 10px 0px 0px rgba(173,52,62,1);
 }
 
-.home-section img:hover {
-    opacity: 0.7;
-}
-
 .home-section p {
   font-weight: 300;
   font-size: 2em;
+  padding: 0.3em;
+  background: #E0E0CE;
+  color: #474747;
 }
 
 .home-section h2 {
   background: #000;
   padding: 0.3em;
   color: #F2AF29;
-}
-
-.home-section p {
-  padding: 0.3em;
 }
 
 #grace-hopper h2 {
@@ -79,8 +78,7 @@ ul {
 }
 
 .home-section h2:hover,
-#grace-hopper h2:hover,
-.home-section p:hover {
+#grace-hopper h2:hover {
   background: #AD343E;
 }
 
