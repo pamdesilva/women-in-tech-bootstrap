@@ -22,13 +22,16 @@ ul {
   padding-top: 2em;
   margin: 0;
   border-bottom: 5px solid #AD343E;
+  background: linear-gradient(0deg, rgba(15,15,15,0.53125) 0%, rgba(253,187,45,0.5) 100%),url(../images/background.jpg) no-repeat 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #E0E0CE;
 }
 
 .jumbotron h1 {
   padding-top: 0.5em;
   font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-  color: #AD343E;
+  font-weight: 400;
 }
 
 .jumbotron p {
@@ -145,7 +148,7 @@ nav {
   padding: 0.3em;
   color: #000;
   font-family: 'Raleway', sans-serif;
-  font-weight: 700;
+  font-weight: 300;
 }
 
 .bio-hero img {
