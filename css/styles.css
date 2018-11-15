@@ -28,7 +28,7 @@ h2,
   padding-top: 2em;
   margin: 0;
   border-bottom: 5px solid #E0E0CE;
-  background: linear-gradient(0deg, rgba(15,15,15,0.53125) 0%, rgba(253,187,45,0.5) 100%),url(../images/background.jpg) no-repeat 50%;
+  background: linear-gradient(0deg, rgba(15, 15, 15, 0.53125) 0%, rgba(253, 187, 45, 0.5) 100%), url(../images/background.jpg) no-repeat 50%;
   background-size: cover;
   color: #E0E0CE;
 }
@@ -76,7 +76,6 @@ h2,
   background: #000;
   padding: 0.3em;
   color: #F2AF29;
-
 }
 
 .home-section .fake-btn {
@@ -131,7 +130,8 @@ footer a:hover {
 
 /************************** Bio pages *************************/
 nav {
-  height: 6em;
+  height: 13em;
+  padding: 2em 0;
   border-bottom: 5px solid #E0E0CE;
   font-family: 'Arima Madurai', cursive;
 }
@@ -139,6 +139,14 @@ nav {
 .navbar-brand {
   font-size: 2em;
   font-weight: 600;
+}
+
+nav li {
+  margin-left: 1em;
+}
+
+.active {
+  color: #AD343E!important;
 }
 
 #top .navbar-brand:hover,
@@ -220,5 +228,9 @@ blockquote {
 @media screen and (min-width:1000px) {
   .home-section .fake-btn {
     width: 33%;
+  }
+
+  nav {
+    height: 8em;
   }
 }
