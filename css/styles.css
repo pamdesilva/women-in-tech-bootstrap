@@ -16,9 +16,15 @@ ul {
   list-style: none;
 }
 
+h1,
+h2,
+.bio-hero strong {
+  font-family: 'Arima Madurai', cursive;
+}
+
 /************************** Home page *************************/
 .jumbotron {
-  min-height: 500px;
+  min-height: 450px;
   padding-top: 2em;
   margin: 0;
   border-bottom: 5px solid #E0E0CE;
@@ -29,8 +35,11 @@ ul {
 
 .jumbotron h1 {
   padding-top: 0.5em;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
+  font-weight: 800;
+}
+
+.jumbotron p {
+  font-family: 'Arima Madurai', cursive;
 }
 
 .jumbotron p {
@@ -67,6 +76,7 @@ ul {
   background: #000;
   padding: 0.3em;
   color: #F2AF29;
+
 }
 
 .home-section .fake-btn {
@@ -121,10 +131,9 @@ footer a:hover {
 
 /************************** Bio pages *************************/
 nav {
-  background-color: #000;
   height: 6em;
   border-bottom: 5px solid #E0E0CE;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Arima Madurai', cursive;
 }
 
 .navbar-brand {
@@ -132,8 +141,8 @@ nav {
   font-weight: 600;
 }
 
-.navbar-brand:hover,
-.nav-link:hover {
+#top .navbar-brand:hover,
+#navbarNav .nav-link:hover {
   color: #AD343E;
 }
 
@@ -146,8 +155,7 @@ nav {
 .bio-hero h1 {
   padding: 0.3em;
   color: #000;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .bio-hero img {
@@ -157,6 +165,11 @@ nav {
 
 .bio-hero ul {
   padding-top: 1em;
+  font-weight: 400;
+}
+
+.bio-hero li {
+  margin-bottom: 2em;
 }
 
 .bio-hero strong {
@@ -164,7 +177,7 @@ nav {
   color: #F2AF29;
   padding: 0.5em;
   margin-top: 1em;
-  font-weight: 200;
+  font-weight: 900;
 }
 
 .bio-content {
@@ -173,7 +186,6 @@ nav {
 
 .bio-content h2 {
   margin-bottom: 0.5em;
-  font-family: 'Raleway', sans-serif;
 }
 
 blockquote {
@@ -207,6 +219,6 @@ blockquote {
 
 @media screen and (min-width:1000px) {
   .home-section .fake-btn {
-    width: 28%;
+    width: 33%;
   }
 }
