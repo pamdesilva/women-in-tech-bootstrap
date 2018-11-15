@@ -17,15 +17,14 @@ ul {
 }
 
 h1,
-h2,
-.bio-hero strong {
+h2 {
   font-family: 'Arima Madurai', cursive;
 }
 
 /************************** Home page *************************/
 .jumbotron {
-  min-height: 450px;
-  padding-top: 2em;
+  min-height: 500px;
+  padding: 3em 0;
   margin: 0;
   border-bottom: 5px solid #E0E0CE;
   background: linear-gradient(0deg, rgba(15, 15, 15, 0.53125) 0%, rgba(253, 187, 45, 0.5) 100%), url(../images/background.jpg) no-repeat 50%;
@@ -34,7 +33,6 @@ h2,
 }
 
 .jumbotron h1 {
-  padding-top: 0.5em;
   font-weight: 800;
 }
 
@@ -114,18 +112,14 @@ h2,
 
 footer {
   padding: 1em;
-  margin-top: 1em;
+  margin-top: 0.5em;
   color: #474747;
+  font-size: 1.1em;
 }
 
 footer a {
   color: #AD343E;
-  padding: 0.2em;
-}
-
-footer a:hover {
-  background: #AD343E;
-  color: #E0E0CE;
+  padding: 0.5em;
 }
 
 /************************** Bio pages *************************/
@@ -185,7 +179,7 @@ nav li {
   color: #F2AF29;
   padding: 0.5em;
   margin-top: 1em;
-  font-weight: 900;
+  font-weight: 500;
 }
 
 .bio-content {
@@ -232,5 +226,9 @@ blockquote {
 
   nav {
     height: 8em;
+  }
+
+  .jumbotron h1 {
+    padding-top: 0.5em;
   }
 }
